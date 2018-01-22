@@ -70,6 +70,11 @@
 	height: 100px;
 	z-index: 9999;
 }
+.tabs-con:hover{
+	border-bottom: 2px solid #fff;
+    border-bottom-color: hsla(0,0%,100%,.7);
+	
+}
 .topwen .active{
 	background: none;
     border-bottom: 2px solid #fff;

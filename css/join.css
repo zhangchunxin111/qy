@@ -1,0 +1,419 @@
+@import url("base.css");
+.header{
+	height: 435px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 40px rgba(0,0,0,.6);
+    background: red;
+    width: 100%;
+    min-width: 1170px;
+    box-sizing: border-box;
+}
+.header .nav{
+	height: 435px;
+    background-size: cover;
+    background: url(../img/join-us.3ad62e0.jpg) 50% no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    min-width: 1170px;
+    
+}
+.topnav{
+	 width: 100%;
+    min-width: 1170px;
+    height: 100px;
+    background-color: rgba(0,0,0,.07);
+    padding: 0;
+    margin: 0;;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+}
+.topnav1{
+	width: 1170px;
+	height: 100px;
+
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-logo{
+	/*width: 180px;
+	height: 100px;
+	box-sizing: border-box;*/
+
+	width: 180px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.nav-logo img {
+    border: 0;
+    vertical-align: middle;
+}
+.nav-bar{
+	/*width: 990px;
+	height: 100px;
+	box-sizing: border-box;*/
+
+	float: left;
+    width: 990px;
+    height: 100px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 85px!important;
+    color: #fff;
+}
+.topwen{
+	width: 905px;
+	height: 100px;
+	z-index: 9999;
+}
+.tabs-con:hover{
+	border-bottom: 2px solid #fff;
+    border-bottom-color: hsla(0,0%,100%,.7);
+	
+}
+.topwen .active{
+	background: none;
+    border-bottom: 2px solid #fff;
+    border-bottom-color: hsla(0,0%,100%,.7);
+}
+.tabs-con{
+	position: relative;
+    float: left;
+    width: 139px;
+    height: 100px;
+
+}
+.tabs{
+	display: inline-block;
+    width: 139px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+}
+.nav h1{
+	/*margin-top: 86px;*/
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 110px!important;
+    font-weight: 200;
+}
+.join{
+	    width: 100%;
+    min-width: 1170px;
+    margin-top: -3px;
+    background: #f0f4fc;
+}
+.require{
+	    margin: 0 auto;
+}
+.require h3{
+	    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 70px;
+    font-weight: 500;
+    color: #333;
+    box-sizing: border-box;
+    
+}
+.require b{
+	display: block;
+    color: #007fff;
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 30px;
+    /*line-height: 36px;*/
+
+	        margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.require i{
+	font-size: 18px;
+    line-height: 18px;
+    font-style: normal;
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.require p{
+	margin: 0;
+    text-align: center;
+    line-height: 15px;
+    margin-top: 18px;
+    color: #000;
+}
+.depart-list{
+	width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    list-style: none;
+    height: 300px;
+}
+.depart{
+	
+	float: left;
+    width: 265px;
+    height: 285px;
+    background-color: #007fff;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.depart h4{
+	margin-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.require-list{
+	margin-top: 30px;
+    padding-left: 45px;
+}
+.require-list li{
+	height: 25px;
+    list-style: initial;
+}
+.require-list li a{
+	color: white;
+}
+.position{
+	margin-top: 40px;
+    background-color: #fff;
+}
+.position h3{
+	background-color: #dcdde0;
+    height: 62px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.position h3 a{
+	display: block;
+    margin: 0 auto;
+    width: 950px;
+    font-size: 18px;
+    line-height: 62px;
+    color: #252525;
+    text-decoration: none;
+    outline: none;
+}
+.pos-list{
+	border-bottom: 1px solid #e3e3e3;
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.join-wrapper{
+	width: 100%;
+    min-width: 1170px;
+    margin-top: -3px;
+    background: #f0f4fc;
+}
+.require{
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.require h3{
+	font-size: 24px;
+    padding-top: 70px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+.require b{
+	display: block;
+    color: #007fff;
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 24px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 100;
+}
+.require span{
+	/*display: block;*/
+	font-size: 18px;
+    line-height: 18px;
+    font-style: normal;
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+.require p{
+	margin: 0 auto;
+	font-size: 14px;
+    text-align: center;
+    line-height: 15px;
+    margin-top: 18px;
+    color: #000;
+}
+.require .department-list{
+	width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    list-style: none;
+    height: 285px;
+    
+}
+.require .department-list .department{
+	float: left;
+    width: 265px;
+    height: 285px;
+    background-color: #007fff;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.require .department-list .department h4{
+	margin-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.require-list{
+	margin-top: 30px;
+    padding-left: 45px;
+}
+.require-list li{
+	height: 25px;
+    list-style: initial;
+}
+.require-list li a{
+	font-size: 14px;
+	color: #fff;
+}
+.position{
+	background: #fff;
+}
+.position h3{
+	background-color: #dcdde0;
+    height: 62px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.position h3 a{
+	display: block;
+    margin: 0 auto;
+    width: 950px;
+    font-size: 18px;
+    line-height: 62px;
+    color: #252525;
+    text-decoration: none;
+    outline: none;
+}
+.position .pos-list{
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: auto;
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+.position .pos-list .col{
+	float: left;
+    width: 50%;
+    font-size: 14px;
+    /*padding-bottom: 20px;*/
+    box-sizing: border-box;
+   display: block;
+}
+.position .pos-list .col p{
+	color: #9b9b9b;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.position .pos-list .col ol{
+	margin-top: 5px;
+}
+ol.sss{
+	list-style: normal;
+}
+.position .pos-list .col ol li{
+	line-height: 23px;
+    text-align: justify;
+    font-size: 14px;
+}
+.position .pos-list  .col:last-child{
+	padding-left: 100px;
+}
+
+
+.footer{
+	/*height: 370px;*/
+    width: 100%;
+    min-width: 1170px;
+    background: #232427;
+}
+.footer-top{
+	    width: 1170px;
+    padding-top: 70px;
+    height: 370px;
+    margin: 0 auto
+}
+.footer-logo{
+	    float: left;
+    width: 245px;
+    margin-top: 10px;
+}
+.footer-lie{
+	width: 290px;
+	float: left;
+}
+.thin{
+	float: left;
+	width: 170px;
+}
+.footer-lie h4{
+	    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer-top p{
+	    font-size: 14px;
+    color: #a3a3a3;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.footer-lie p a{
+	font-size: 14px;
+    color: #a3a3a3;
+    line-height: 26px;
+    text-decoration: none;
+}
+.message{
+	margin: auto 8px auto 5px;
+}
+.footer-bottom{
+	height: 60px;
+    border-top: 1px solid #403e3e;
+    color: #7d7d7d;
+    line-height: 60px;
+	background: #232427;
+    
+}
+.footer-bottom p{
+	    width: 1170px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.footer-bottom p span{
+	    font-size: 14px;
+    float: right;
+}
+	
